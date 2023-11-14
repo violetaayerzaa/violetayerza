@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Montserrat:wght@300&display=swap');
+
+:root {
+  --bs-body-bg: #FCF5EB;
+  --bs-primary-bg-subtle: transparent;
+}
+
+.btn-outline-success {
+  --bs-btn-border-color: rgb(204, 204, 204);
+  --bs-btn-hover-bg: rgb(255, 202, 202);
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(251, 242, 242);
+}
+div h1{
+  font-size: 85px;
+   margin-top: 50px;
+   font-family:'Agbalumo' ;
+   margin-left: 50px;
+ 
+   
+ }
+div div div p {
+  
+  font-family: "Montserrat", sans-serif;
+ 
+}
+h3{
+  font-family:'Agbalumo' ;
+}
+h5{
+  font-size: 40px;
+}
+.navBar {
+  background-color: #e2e2e1;
+
+}
+
+@media screen and (max-width:768px) {
+  .contenedorImagenFinal {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .imgContenedorFinal {
+    width: 100%;
+  }
+}
+
+
+footer {
+ height: 350px;
+  background-color: rgb(77, 102, 79)
+}
